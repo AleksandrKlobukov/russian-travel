@@ -4,6 +4,7 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
+  max-width: 1280px;
   text-rendering: optimizeLegibility;
   margin: 0 auto;
   padding: 0;
@@ -11,5 +12,12 @@
   background-color: #2a2c2f;
   font-family: "Inter", "Arial ", sans-serif;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
+
+/**
+*,
+*::before,
+*::after {
+  outline: 1px solid red;
+} 
+**/
